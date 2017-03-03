@@ -191,6 +191,8 @@ class Popover extends Component {
       ...other
     } = this.props;
 
+    console.log("MATERIAL UI PROPS ->", this.props);
+
     let styleRoot = style;
 
     if (!animated) {
